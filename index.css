@@ -1,0 +1,136 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Josefin Sans",sans-serif;
+}
+html,body{
+    height: 100%;
+    width:100%;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    background-color: hsl(206, 65%, 83%);
+}
+center{
+    font-size: xx-large;
+    margin-top: 3rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 2px 2px 3px rgb(12, 12, 12);
+}
+#main-div{
+    min-width:100vh;
+    width:100vw;
+    display: grid;
+    place-items: center;
+
+}
+#inner-div{
+    width:35vw;
+    background: #f4f5f4;
+    padding:3rem 8rem;
+    border-radius: 1rem;
+    box-shadow: 2px 3px 4px #232525;
+    margin-top: 5%;
+
+    
+}
+#inner-div h2{
+    font-size: 1.8rem;
+    margin: 0.2rem 0 4rem  0; 
+}
+#que{
+    display: flex;
+    width:500px;
+    justify-content: center;
+    align-items: center;
+    margin-top: -20px;
+    margin-left: -40%;
+}
+ul{
+    margin-top: -30px;
+}
+#inner-div li{
+    font-size: 1.rem;
+    margin: 1.2rem;
+    list-style: none;
+}
+#submit{
+padding: 0.4rem 1rem;
+outline: none;
+display: block;
+margin: auto;
+border: none;
+text-transform: uppercase;
+color:rgb(255, 251, 251);
+font-size: 1rem;
+background: #95c4f2;
+border-radius: 5px;
+margin-top: 6px;
+}
+#submit:hover{
+    background: #65aff9;
+    box-shadow: 2px 2px 2px black;
+}
+#showScore{
+    background:#b4b3b3 ;
+    width: 20rem;
+    height: 8rem;
+    box-shadow: 2px 3px 4px #080808;
+     margin-top:8%;
+    
+}
+
+#buttm-area{
+    display: flex;
+    justify-content: center;
+    padding-top: 5%;
+}
+.btn{
+    display: block;
+    margin-top:5%;
+    margin-left: 7rem;
+    background:  #0773de;;
+    border-radius: 7px;
+    font-size: larger;
+    padding: 8px 13px;
+    color: beige;
+    
+   
+}
+
+   
+#showScore h3{
+    font-size: 2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.showArea{
+    display: none;
+}
+
+
+/*#buttom{
+    width: 85%;
+    height:30%;
+    background: #88f1f1;
+    margin-top: 30%;
+    border-radius: 9px;
+    margin-left: 7%;
+    box-shadow: 4px 3px 4px #363939;
+
+}
+#buttm-area{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+button{
+    background: #52d4ee;
+    border-radius: 4px;
+    color:rgb(255, 254, 254);
+    font-size: x-large;
+}*/
