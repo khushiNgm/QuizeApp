@@ -1,0 +1,22 @@
+name: QuizApp CI Pipeline
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build-test-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Clone Repository
+        uses: actions/checkout@v4
+        with:
+          repository: khushiNgm/QuizeApp
+
+      - name: Test Stage
+        run: echo "testing a code"
+
+      - name: Deploy Stage
+        run: echo "Deploy a code"
